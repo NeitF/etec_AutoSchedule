@@ -1,0 +1,118 @@
+#telaLogin{
+    border: 1px solid red;
+}
+
+body{
+    background: url('../imagens/background-login.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.tbody{
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px;
+    width: 80%;
+}
+
+.tbody2{
+    margin: auto;
+    margin-top: 60px;
+    padding: 0px;
+    width: 50%;
+}
+
+.fundoBranco{
+    background-color: #f3de8a;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.texto{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.texto2{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.red{
+    background-color: #FB3030;;
+    color: #fff;
+}
+
+.green{
+    background-color: 0EB200;
+    color: #fff;
+}
+
+.blue{
+    background-color: #0049CA;
+    color: #fff;
+}
+
+.yellow{
+    background-color: #B0BE00;
+    color: #fff;
+}
+
+.purple{
+    background-color: #7900B1;
+    color: #fff;
+}
+
+.orange{
+    background-color: #D13C00;
+    color: #fff;
+}
+
+.pink{
+    background-color: #FF0E78;
+    color: #fff;    
+}
+
+.light-blue{
+    background-color: #00ABB2;
+    color: #fff;
+}
+
+.gray{
+    background-color: #7C7C7C;
+    color: #fff;
+}
+
+.light-green{
+    background-color: #58CF00;
+    color: #fff;
+}
+
+.disponivel{
+    background-color: #17FF00;
+}
+
+.animacao{
+    animation: transitionIn 2.0s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-50deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
