@@ -1,2 +1,2 @@
 # etec_AutoSchedule
-  Projeto idealizado durante o período de estudos na Etec Hortolândia.
+  O objetivo desse projeto é tentar solucionar a dificuldade na criação da grade horária dos cursos de uma instituição de ensino.
